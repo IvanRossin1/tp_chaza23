@@ -51,11 +51,11 @@ header {
 
 .card {
     position: relative;
-    flex: 1 0 100px;
-    /* flex-grow: 1; */
+    flex: 0 0 300px;
+/*  flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 100px; 
-    /* width: 30%; */
+    flex-basis: 100px;
+    width: 30%; */
     height: 500px;
     background-color: white;
     padding: 20px;
