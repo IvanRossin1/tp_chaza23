@@ -108,6 +108,8 @@ footer {
     position: fixed;
     bottom: 0;
     color: white;
+    line-height: 60px;  
+    text-align: center;
 }
 
 .contenido {
