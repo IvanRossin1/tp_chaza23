@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TIPOGRAFIAS */
+.ubuntu {font-family: 'Ubuntu', sans-serif;}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.portada {
+    background-image: url(../img/resto1.jpg);
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+}
+
+.menu {
+    background-color: salmon;
+    padding: 20px;
+}
+
+.productos {
+    background-color: aquamarine;
+    padding: 20px;
+}
