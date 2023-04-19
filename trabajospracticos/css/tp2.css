@@ -92,8 +92,24 @@
 }
 
 .menu {
+    margin-top: 20px;
     background-color: salmon;
     padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    flex: 0 0 109px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
 }
 
 .productos {
