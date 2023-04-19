@@ -25,12 +25,17 @@
 
 .portada {
     position: relative;
-    /* background-image: url(../img/resto1.jpg); */
+    background-image: url(../img/resto1.jpg);
     background-color: aqua;
     color: rgb(197, 197, 197);
     padding: 7%;
     box-shadow: inset 0 0 400px black;
     height: 350px;
+}
+
+.portada .texto {
+    position: absolute;
+    bottom: 60px;
 }
 
 .busqueda {
