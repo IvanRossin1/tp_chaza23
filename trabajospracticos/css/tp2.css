@@ -144,3 +144,29 @@
     background-color: aquamarine;
     padding: 20px;
 }
+
+.restos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+
+.card {
+    display: flex;
+    flex: 1 0 160px;
+    width: 90%;
+    background-color: blue;
+    
+
+}
+
+.card .img {
+    flex: 0 0 40%;
+    background-color: green;
+}
+
+.card .datosresto {
+    flex: 0 0 60%;
+    background-color: white;
+}
