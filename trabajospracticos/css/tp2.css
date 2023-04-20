@@ -4,6 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.15s ease-in-out;
+}
+
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+}
+
+/*FONDO SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/*SELECTOR*/
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
 }
 
 /* TIPOGRAFIAS */
@@ -40,7 +65,7 @@
 
 .busqueda {
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     background-color: white;
     width: 86%;
     height: 60px;
@@ -99,10 +124,13 @@
 
 .menu ul {
     display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
 }
 
 .menu ul li {
-    flex: 0 0 109px;
+    height: 60px;
+    flex: 0 0 110px;
     text-align: center;
     list-style: none;
 }
