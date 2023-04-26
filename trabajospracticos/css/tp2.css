@@ -159,11 +159,10 @@
     flex: 1 0 160px;
     width: 90%;
     background-color: blue;
-    
-
+    height: 160px;
 }
 
-.img img {
+.img > img {
     height: 100%;
     object-fit: cover;
 }
@@ -175,6 +174,15 @@
 }
 
 .card .datosresto {
+    padding: 12px;
     flex: 0 0 60%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+ .valores {
+     display: flex;
+     justify-content: space-between;
+ }
