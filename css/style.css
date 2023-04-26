@@ -108,7 +108,7 @@ header .social {
     background-color: red;
 } */
 
-/* footer {
+footer {
     background-color: #444;
     height: 60px;
     width: 100%;
@@ -117,13 +117,14 @@ header .social {
     color: white;
     line-height: 60px;  
     text-align: center;
-} */
+}
 
 .contenido {
-    height: 20%;
+    height: 100vw;
     width: 100%;
     margin: auto;
-    background-color: #0093E9;
+    background-color:80093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #84fff1 100%);
+    padding-bottom: 20px;
     /* margin-bottom: 60px; */
 }

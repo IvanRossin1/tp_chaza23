@@ -1,7 +1,7 @@
 @media screen and (max-width:662px) {
     .contenido {
         width: 100%;
-        height: auto;
+        height: fit-content;
         padding: 14px;
     }
 
