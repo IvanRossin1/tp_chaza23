@@ -211,3 +211,10 @@
     line-height: 40px;
     border-radius: 0 15px;
 }
+
+.nav_mobile {
+    background-color: blue;
+    position: fixed; /* elemento fijo en la pantalla */
+    bottom: 0;
+        
+}
