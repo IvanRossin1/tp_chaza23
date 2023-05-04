@@ -145,6 +145,23 @@
     padding: 20px;
 }
 
+.pa {position: absolute;}
+.posrel {position: relative;}
+
+.valoracion {
+    position: absolute;
+    background-color: aliceblue;
+    height: 60px; width: 60px;
+    text-align: center;
+    line-height: 60px;
+    bottom: -20px;
+    right: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 15px 0;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.404);
+}
+
 .restos {
     width: 100%;
     display: flex;
@@ -212,9 +229,87 @@
     border-radius: 0 15px;
 }
 
+ul {list-style-type: none;}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+main ul li {text-align: center;}
+
 .nav_mobile {
-    background-color: blue;
+    /* background-color: blue; */
     position: fixed; /* elemento fijo en la pantalla */
     bottom: 0;
-        
+    width: 100%;
+}
+
+.nav_mobile ul {
+    display: flex;
+    justify-content: space-between;
+    /* list-style: none; */
+}
+ 
+.nav_mobile ul li {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_mobile a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.nav_mobile ul li:hover {
+    color: black;
+    border-top: solid 2px aquamarine;
+}
+
+/* PROPIEDADES PARA menu.html */
+
+/* ordenamiento de elementos */
+.flex{display: flex;}
+.centrar_v{align-items: center;}
+.centrar_h{justify-content: center;}
+
+.banner{
+    width: 100%; 
+    background-color: rgb(174, 147, 106);
+    padding: 10px;
+}
+
+.banner button {
+    left: 20px;
+    background-color: transparent;
+    border: 0;
+}
+
+.banner button:hover {
+    background-color: aquamarine;
+}
+
+.item_menu {
+    background-color: violet;
+}
+
+.plato {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.item_menu span  {
+    background-color: orange;
 }
