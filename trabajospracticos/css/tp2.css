@@ -301,6 +301,7 @@ main ul li {text-align: center;}
 
 .item_menu {
     background-color: violet;
+    width: 100%;
 }
 
 .plato {
