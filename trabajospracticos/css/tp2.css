@@ -21,7 +21,7 @@
 
 /*SELECTOR*/
 ::-webkit-scrollbar-thumb {
-    background: rgb(109, 223, 185);
+    background: #00CE8C;
     ;
     border-radius: 5px;
 }
@@ -39,7 +39,7 @@
 }
 
 .fw700 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .asd {
@@ -52,7 +52,7 @@
     position: relative;
     background-image: url(../img/resto1.jpg);
     background-color: aqua;
-    color: rgb(197, 197, 197);
+    color: rgb(198, 198, 198);
     padding: 7%;
     box-shadow: inset 0 0 400px black;
     height: 350px;
@@ -81,7 +81,7 @@
 .busqueda .icono {
     height: 60px;
     width: 60px;
-    background-color: aquamarine;
+    background-color: #00CE8C;
     text-align: center;
     line-height: 60px;
 }
@@ -150,7 +150,7 @@
 
 .valoracion {
     position: absolute;
-    background-color: aliceblue;
+    background-color: #00CE8C;
     height: 60px; width: 60px;
     text-align: center;
     line-height: 60px;
@@ -159,7 +159,19 @@
     color: black;
     font-weight: 700;
     border-radius: 15px 0;
-    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.404);
+    box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.404);
+}
+
+.precio {
+    position: absolute;
+    height: 60px; width: 60px;
+    text-align: center;
+    line-height: 60px;
+    bottom: -70px;
+    right: 20px;
+    color: black;
+    font-weight: 700;
+    color: #00CE8C;
 }
 
 .restos {
@@ -187,6 +199,13 @@
 .img > img {
     height: 100%;
     object-fit: cover;
+}
+
+.img_menu > img {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .card .img {
@@ -223,7 +242,7 @@
     right: -5px;
     height: 50px;
     width: 50px;
-    background-color: aquamarine;
+    background-color: #00CE8C;
     text-align: center;
     line-height: 40px;
     border-radius: 0 15px;
@@ -246,6 +265,19 @@ main ul {
 
 main ul li {text-align: center;}
 
+/* COLORES ICONOS */
+i.icon-red {
+    color: #FF4F28;
+}
+
+i.icon-orange {
+    color: #FF9938;
+}
+
+i.icon-orange2 {
+    color: #FFBA78;
+}
+
 .nav_mobile {
     /* background-color: blue; */
     position: fixed; /* elemento fijo en la pantalla */
@@ -254,9 +286,11 @@ main ul li {text-align: center;}
 }
 
 .nav_mobile ul {
+    padding: 13px;
     display: flex;
     justify-content: space-between;
     /* list-style: none; */
+    background-color: white;
 }
  
 .nav_mobile ul li {
@@ -285,8 +319,8 @@ main ul li {text-align: center;}
 
 .banner{
     width: 100%; 
-    background-color: rgb(174, 147, 106);
-    padding: 10px;
+    background-color: white;
+    padding: 20px;
 }
 
 .banner button {
@@ -296,7 +330,7 @@ main ul li {text-align: center;}
 }
 
 .banner button:hover {
-    background-color: aquamarine;
+    background-color: #00CE8C;
 }
 
 .item_menu {
