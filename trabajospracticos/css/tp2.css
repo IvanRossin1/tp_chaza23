@@ -382,3 +382,36 @@ i.icon-orange2 {
     text-decoration-line: underline;
 }
 
+/* producto */
+.producto {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.obj_fit {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.producto .titulo {
+    z-index: 10;
+    background-color: red;
+    /* height: 20px; */
+    width: 70%;
+    bottom: 0;
+}
+
+.main {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+.cuadrado {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(37, 106, 149);
+}
