@@ -119,6 +119,7 @@
 .menu {
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
+    /* background-color: red; */
     padding: 20px;
 }
 
