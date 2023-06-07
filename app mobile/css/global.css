@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: lightpink;
+    height: calc(100vh - 10px);
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    max-width: 662px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+}
