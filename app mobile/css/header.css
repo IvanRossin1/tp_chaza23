@@ -2,7 +2,27 @@
     height: 100px;
     width: 100%;
     margin: auto;
-    background-color: aqua;
+    background-color:burlywood;
     border-radius: 30px 30px 0 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.busqueda {
+    width: calc(100% - 120px);
+    height: 60px;
+    background-color: yellow;
+}
+
+.drop_menu {
+    width: 60px;
+    height: 60px;
+    background-color: black;
 }

@@ -22,3 +22,22 @@ body {
     background-color: white;
     border-radius: 30px;
 }
+
+.circulo {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.centrar_vert {
+    align-items: center;
+}
+
+.centrar_ho {
+    justify-content: center;
+}
