@@ -1,0 +1,15 @@
+.portada {
+    position: relative;
+    background-color: grey;
+    height: 500px;
+}
+
+.banner1 {
+    background-color: rgb(87, 87, 87);
+    height: 250px;
+}
+
+.banner2 {
+    background-color: rgb(58, 58, 58);
+    height: 125px;
+}

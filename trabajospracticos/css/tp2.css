@@ -63,6 +63,10 @@
     bottom: 60px;
 }
 
+.texto {
+    color: white;;
+}
+
 .busqueda {
     position: absolute;
     bottom: -25px;
@@ -81,6 +85,7 @@
 .busqueda .icono {
     height: 60px;
     width: 60px;
+    color: black;
     background-color: #00CE8C;
     text-align: center;
     line-height: 60px;
