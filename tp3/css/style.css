@@ -7,9 +7,9 @@
     transition: all 0.15s ease-in-out;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .ubuntu {font-family: 'Ubuntu', sans-serif;}
 
@@ -43,7 +43,8 @@ body {
 
 .contenido {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
+
     /* padding: 10px; */
 }
 
