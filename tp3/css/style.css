@@ -13,6 +13,10 @@
 
 .ubuntu {font-family: 'Ubuntu', sans-serif;}
 
+body {
+    height: calc(100vh - 10px);
+}
+
 /* 
 .barra_noti {
     position: relative;
