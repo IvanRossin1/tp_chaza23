@@ -29,7 +29,6 @@
 
 .barra_sup {
     display: flex;
-    position: absolute;
     /* padding-left: 425px; */
     background-color: rgb(17, 170, 0);
     /* width: 100%; */
