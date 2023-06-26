@@ -7,9 +7,9 @@
     transition: all 0.15s ease-in-out;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 .ubuntu {font-family: 'Ubuntu', sans-serif;}
 
@@ -97,22 +97,21 @@
 .btn_land {
     /* background-color: #3F9875; */
     background-color: red;
-    height: 130px;
+    height: 90px;
 }
 
 .btn_foot {
-    position: absolute;
-    left: 40px;
+    position: relative;
     width: 80%;
-    width: calc(100% - 90px);
-    background-color: grey;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
     display: inline-block;
     /* font-size: 200%; */
     font-size: 1.25em;
-    margin: 20px;
-    padding: 10px 0;
+    margin: -11px 0 0 40px;
+    padding: 16px 0;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 3px 0 #373c3c;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px #373c3c60;
 }
