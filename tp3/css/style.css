@@ -103,8 +103,8 @@
 .btn_foot {
     position: absolute;
     left: 40px;
-    width: 75%;
-    width: calc(100% - 80px);
+    width: 80%;
+    width: calc(100% - 90px);
     background-color: grey;
     color: white;
     display: inline-block;
