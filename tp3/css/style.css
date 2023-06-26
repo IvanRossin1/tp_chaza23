@@ -99,3 +99,21 @@
     background-color: red;
     height: 130px;
 }
+
+.btn_foot {
+    position: absolute;
+    left: 40px;
+    width: 75%;
+    width: calc(100% - 80px);
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    /* font-size: 200%; */
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0;
+    text-align: center;
+    width: 75%;
+    text-decoration: none;
+    box-shadow: 0 3px 0 #373c3c;
+}
