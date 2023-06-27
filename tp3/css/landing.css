@@ -18,6 +18,15 @@
     font-weight: bold;
 }
 
+.fw1 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/* body {
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRe4OjbpQGybrs5EEHr_tDIMlmVERXXWrdPX2z_xyP7KRGtMj_p);
+} */
+
 /* 
 .barra_noti {
     position: relative;
@@ -117,3 +126,7 @@
     border-radius: 30px;
     box-shadow: 5px 5px 5px 5px #373c3c60;
 }
+
+/* .img {
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRe4OjbpQGybrs5EEHr_tDIMlmVERXXWrdPX2z_xyP7KRGtMj_p);
+} */

@@ -45,9 +45,46 @@
 
 body {
     color: white;
-    background-color: darkviolet;
+    background-color: #5ac59a;
 }
 
 .asd {
     margin: 10px;
+}
+
+.flecha {
+    text-decoration: none;
+    color: white;
+}
+
+.corazon {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.compartir {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+
+}
+
+.iconos1 {
+    /* display: flex; */
+    border: solid;
+    border-radius: 50px;
+    border-color: red;
+    /* justify-content: center; */
+}
+
+.iconos2 {
+    /* display: flex; */
+    border: solid;
+    border-radius: 50px;
+    border-color: red;
+    /* justify-content: center; */
 }
