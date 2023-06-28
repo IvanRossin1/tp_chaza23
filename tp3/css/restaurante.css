@@ -82,7 +82,7 @@ body {
     border-radius: 50%;
     border-color: rgba(0, 0, 0, 0.064);
     padding: 6px 0 0 0;  /* arriba-derecha-abajo-izquierda */
-    left: 30px;
+    left: 28px;
 }
 
 .iconos2 {
@@ -93,7 +93,7 @@ body {
     border-radius: 50%;
     border-color: rgba(0, 0, 0, 0.064);
     padding: 6px 0px 0 0;  /* arriba-derecha-abajo-izquierda */
-    left: 335px;
+    left: 275px;
 }
 
 .iconos3 {
@@ -103,6 +103,6 @@ body {
     width: 40px;
     border-radius: 50%;
     border-color: rgba(0, 0, 0, 0.064);
-    padding: 6px 4px 0 0;  /* arriba-derecha-abajo-izquierda */
-    left: 390px;
+    padding: 6px 0px 0 0;  /* arriba-derecha-abajo-izquierda */
+    left: 325px;
 }
