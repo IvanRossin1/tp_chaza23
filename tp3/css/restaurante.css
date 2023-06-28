@@ -20,10 +20,11 @@
 
 .barra_sup2 {
     /* background-color: rgba(0, 247, 255, 0.349); */
-    background-color: #3F9875;
-    /* width: 100%; */
-    height: 55px;
+    /* background-color: #3F9875; */
+    background-color: white;
+    height: 60px;
     color: white;
+    padding-top: 10px;
 }
 
 .barra_sup {
@@ -40,7 +41,7 @@
 .contenido {
     width: 100%;
     height: 100%;
-    padding: 0 7% 0 7%;
+    padding: 10px 7% 0 7%;
 }
 
 body {
@@ -53,38 +54,55 @@ body {
 }
 
 .flecha {
+    display: flex;
     text-decoration: none;
-    color: white;
+    color: rgba(0, 0, 0, 0.54);
+    justify-content: center;
 }
 
 .corazon {
     display: flex;
     text-decoration: none;
-    color: white;
-    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.549);
     justify-content: center;
 }
 
 .compartir {
     display: flex;
     text-decoration: none;
-    color: white;
+    color: rgba(0, 0, 0, 0.549);
     justify-content: center;
-
 }
 
 .iconos1 {
-    /* display: flex; */
+    position: absolute;
     border: solid;
-    border-radius: 50px;
-    border-color: red;
-    /* justify-content: center; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.064);
+    padding: 6px 0 0 0;  /* arriba-derecha-abajo-izquierda */
+    left: 30px;
 }
 
 .iconos2 {
-    /* display: flex; */
+    position: absolute;
     border: solid;
-    border-radius: 50px;
-    border-color: red;
-    /* justify-content: center; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.064);
+    padding: 6px 0px 0 0;  /* arriba-derecha-abajo-izquierda */
+    left: 335px;
+}
+
+.iconos3 {
+    position: absolute;
+    border: solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.064);
+    padding: 6px 4px 0 0;  /* arriba-derecha-abajo-izquierda */
+    left: 390px;
 }
