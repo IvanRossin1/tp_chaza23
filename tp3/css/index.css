@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 .rotar {
@@ -62,8 +62,10 @@ body {
 
 .menu_desplegable {
     /* position: fixed; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 40px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* .menu_desplegable a {
@@ -101,13 +103,13 @@ body {
 
 .titulo_index {
     position: relative;
-    color: white;
-    background-color: black;
+    color: black;
+    /* background-color: black; */
     height: 60px;
     width: 100%;
     display: flex;
     padding: 15px 0 0 0;
-    font-size: 33px;
+    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     /* top: 80px; */
@@ -128,6 +130,8 @@ body {
     display: flex;
     position: relative;
     bottom: 10px;
+    font-weight: bold;
+    font-family: ubuntu;
 }
 
 .menu ul li {
@@ -168,7 +172,7 @@ body {
     width: 86%;
     height: 60px;
     margin: auto;
-    box-shadow: 0 18px 20px -8px rgba(0, 0, 0, 0.452);
+    box-shadow: 0 18px 20px -11px rgba(0, 0, 0, 0.452);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -219,13 +223,18 @@ body {
 }
 
 .footer {
-    background-color: violet;
+    background-color: white;
     color: white;
     height: 80px;
     width: 100%;
     position: fixed;
     bottom: 0;
     line-height: 70px;
+    box-shadow: 0 18px 20px 25px rgba(0, 0, 0, 0.452);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7% 0 7% ;
+    font-weight: bold;
 }
 
 .fotos {
@@ -239,8 +248,8 @@ body {
 }
 
 .fotos ul li {
-    padding: 0 13px 0 0;
-    height: 245px;
+    padding: 10px 13px 0 0;
+    height: 255px;
     flex: 0 0 110px;
     text-align: center;
     list-style: none;
