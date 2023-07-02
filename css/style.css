@@ -73,8 +73,10 @@ header {
 .card .imagen {
     width: 100%;
     height: 50%;
-    background-color: red;
+    background-color: grey;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .card .titulo {
