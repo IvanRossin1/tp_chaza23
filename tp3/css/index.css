@@ -290,10 +290,11 @@ ul.slider li img {
 
 .mapa {
     background-color: #009e6cbb;
-    position: relative;
+    position: fixed;
     width: 50px;
     height: 50px;
-    bottom: 70px;
+    bottom: 100px;
+    left: 81%;
     border: solid;
     border-color: rgba(0, 0, 0, 0.287);
     border-radius: 50%;
