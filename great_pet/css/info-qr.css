@@ -564,7 +564,7 @@
     }
     
     .me_encontraste{
-        /* background-color: #ee920c; */
+        background-color: #ee920c;
         width: 100%;
         display: flex;
         justify-content:center ;
