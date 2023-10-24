@@ -564,11 +564,11 @@
     }
     
     .me_encontraste{
-        background-color: #ee920c;
+        /* background-color: #ee920c; */
         width: 100%;
         display: flex;
         justify-content:center ;
-        font-size: 50pt;
+        font-size: 26pt;
         color: #ffa75a;
         margin-top: 50px;
     }
