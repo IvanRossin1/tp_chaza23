@@ -568,7 +568,7 @@
         width: 100%;
         display: flex;
         justify-content:center ;
-        font-size: 25pt;
+        font-size: 23pt;
         color: #ffa75a;
         margin-top: 50px;
     }
@@ -579,7 +579,7 @@
         width: 100;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .contenedor_img1{
