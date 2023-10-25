@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+.fondito{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/fuzzy-sun-rays-through-scattered-clouds-gradient-blue-sky-realistic-background_1284-58644.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 1;
+
+}
+.container{
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    z-index: 2;}

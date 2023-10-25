@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="appclima.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="fondito"></div>
+    <div class="container">
+        <header class="ciudad">
+            
+            <label>
+                Seleccione una ciudad:
+                <input list="ciudades" name="ciudad" />
+            </label>
+
+            <datalist id="ciudades">
+                <option value="Villa Giardino"></option>
+                <option value="Tortuguitas"></option>
+                <option value="ExpoTécnica"></option>
+                <option value="Aeroclub La Cumbre"></option>
+            </datalist>
+
+
+        </header>
+
+        <main>
+            <div class="chipid">
+
+            </div>
+
+            <section class="opciones">
+                <button>Temp</button>
+                <button>Presion</button>
+                <button>Lluvia</button>
+                <button>Fuego</button>
+            </section>
+
+            <div class="grafico">
+                <canvas id="myChart">
+
+                </canvas>
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+              label: 'mm precipitaciones',
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+</body>
+
+</html>
