@@ -148,25 +148,25 @@
 }
 
 .imagen_refuguio_tarjeta {
-    background-image: url('../img/refuguio.png');
+    background-image: url('../img/veterinaria.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #603813; */
-    height: 65%;
+    height: 70%;
     width: 90%;
 
 }
 
 .bimagen_refuguio_tarjeta {
-    background-image: url('../img/forrajeria.png');
+    background-image: url('../img/forrajeriaa.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #603813; */
-    height: 60%;
-    width: 70%;
-
+    height: 200px;
+    width: 300px;
+    
 }
 
 .cimagen_refuguio_tarjeta {
