@@ -60,6 +60,7 @@ main {
     background-color: #f7cdaa;
     width: 1000px;
     height: 580px;
+    padding: 10px;
 }
 
 .logo-caja {
@@ -111,9 +112,9 @@ main {
 
 .contenedor2-main-index {
     /* background-color: #daeeb4; */
-    height: 1000px;
+    height: 800px;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-bottom: 200px;
     display: flex;
     justify-content: center;
@@ -121,8 +122,10 @@ main {
 
 .tarjetas {
     /* background-color: #ceb6a3; */
-    border-radius: 10%;
-    height: 100%;
+    position: relative;
+    top: -70px;
+    /* border-radius: 10%; */
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -131,6 +134,7 @@ main {
 }
 
 .tarj {
+    position: relative;
     background-color: #f7cdaa;
     height: 200px;
     width: 65%;
@@ -139,20 +143,21 @@ main {
     margin: 35PX;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
 .logotipo-tarjeta {
-    background-color: rgba(238, 130, 238, 0);
+    /* background-color: rgb(238, 130, 238); */
     height: 100%;
-    width: 360px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .borde1 {
-    /* background-color: #f9fceb; */
+    /* background-color: #ff0b0b; */
     height: 100%;
     width: 100%;
     border: solid 7px #fcf2eb;
@@ -250,3 +255,168 @@ main {
 .ir-link {
     text-decoration: none !important;
 }
+.ondas_responsive{
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+
+    .contenedor1-main-index{
+        height:500px ;
+        /* display: none; */
+
+    }
+
+    .imagen-perro-cartel {
+        width: 200px;
+        height: auto;
+    }
+
+    .contenedor-descripcion{
+        width: 80%;
+        min-width: 440px;
+        max-width: 500px;
+        height: 300px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 10px;
+
+    }
+
+
+    .descripcion-greatpet{
+        /* background-color: #ffa75a; */
+        width: 180px;
+        min-width: 180px;
+        height: 200px;
+        font-size: 15px;
+    }
+
+    .logo-caja{
+        width: 200px;
+        height: auto;
+
+    }
+    
+    .linea {
+        position: relative;
+        top: -20px;
+        background-color: #ffa75a;
+        width: 5px;
+        height: 72%;
+        margin: 0px 15px;
+        border-radius: 20px;
+    }
+
+    .ondas{
+     display: none;
+        min-width: 461px;;
+    }
+    .ondas_responsive {
+        display: block;
+        z-index: 6;
+        /* background-color: #6ac77000; */
+        position: relative;
+        width: 100%;
+        height: 300px;
+        top: -200PX;
+        /*CONSULTAR AL PROFE*/
+    }
+
+    /*TARJETAS*/
+
+    .contenedor2-main-index{
+        /* display: none; */
+        width: 440px;
+        min-width: 440px;
+        margin-bottom: 100px;
+
+    }
+
+    .tarjetas{
+        /* background-color: aqua; */
+        top: -140px;
+    }
+
+
+    .tarj {
+       width: 80%;
+       height: 160px;
+       border-radius: 50px;
+       justify-content: start;
+    }
+    
+    .borde1 {
+
+        border-radius: 50px;
+        width: 150px;
+
+    }
+
+    .img-tarjeta1 {
+        height: 120px;
+        width: 120px;
+    
+    }
+
+
+    
+
+    .img-tarjeta2 {
+        height: 110px;
+        width: 110px;
+     
+    }
+    
+     .img-tarjeta3 {
+        height: 110px;
+        width: 110px;
+        top: -8px;
+    
+    } 
+    
+     .img-tarjeta4 {
+        height: 110px;
+        width: 110px;
+        top: 0px;
+    }
+
+    .texto-tarjeta {
+        /* background-color: rgba(0, 255, 255, 0.244); */
+        width: 220px;
+        padding-left: 20px;
+        top: -15px;
+
+    }
+
+
+    .titulo-tarjeta {
+        font-size: 20pt;
+        color: #ffa75a;
+    }
+
+    .parrafo-tarjeta {
+        font-size: 10pt;
+        color: #603813;
+    }
+
+
+    .caja-ir {
+        position: absolute;
+        bottom: 0;
+        left: 250px;
+        height: 40px;
+        width: 100px;
+        
+    }
+    
+    .ir {
+        font-size: 20pt;
+        color: #f7cdaa;
+    }
+
+
+}
+
+

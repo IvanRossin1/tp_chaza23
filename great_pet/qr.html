@@ -21,31 +21,62 @@
 <body>
     <header>
         <div class="headersi">
+
             <a href="index.html">
                 <img class="img-header FOTO-LOGO" src="img/logo_definitivo.png" alt="s">
             </a>
-            <div class="navegacion roboto">
-                <a class="TEXTO-LINK" href="index.html">
-                    <h3>Inicio</h3>
-                </a>
-                <a class="TEXTO-LINK" href="adopcion.html">
-                    <h3>Adopcion</h3>
-                </a>
-                <a class="TEXTO-LINK" href="busqueda.html">
-                    <h3>Busqueda</h3>
-                </a>
-                <a class="TEXTO-LINK" href="#">
-                    <h3>QR</h3>
-                </a>
-                <a class="TEXTO-LINK" href="servicios.html">
-                    <h3>Servicios</h3>
-                </a>
-            </div>
-            <div class="redes roboto">
 
-                <div class="redes roboto">
-                    <a href="login.php" class="registrarse">Iniciar sesión</a>
-                </div>
+            <nav class=" roboto2">
+                <div class="menu-icon" id="menu-icon">&#9776;</div>
+
+                <ul class="navegacion menu" id="menu">
+                    <H2 class="nombre_proyecto_en_menu sigmar">Great Pet</H2>
+
+                    <div class="linea_menu_res"></div>
+                    <div class="contenedor_navegacion">
+                        <li>
+                            <a class="TEXTO-LINK" href="index.html">
+                                <h4>Inicio</h4>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="contenedor_navegacion">
+                        <li>
+                            <a class="TEXTO-LINK" href="adopcion.html">
+                                <h4>Adopción</h4>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="contenedor_navegacion">
+                        <li>
+                            <a class="TEXTO-LINK" href="busqueda.html">
+                                <h4>Búsqueda</h4>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="contenedor_navegacion">
+                        <li>
+                            <a class="TEXTO-LINK" href="#">
+                                <h4>QR</h4>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="contenedor_navegacion">
+                        <li>
+                            <a class="TEXTO-LINK" href="servicios.html">
+                                <h4>Servicios</h4>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+
+            <div class="redes roboto">
+                <a href="login.php" class="registrarse">Iniciar sesión</a>
             </div>
         </div>
     </header>
@@ -91,40 +122,40 @@
 
 
 
-                      
 
 
-                            <template id="tarjeta_qr">
+
+                        <template id="tarjeta_qr">
 
 
-                                <div class="tarjetas_mascotas_qr">
+                            <div class="tarjetas_mascotas_qr">
 
-                                    <div class="img_tarjeta_qr_mascota"></div>
+                                <div class="img_tarjeta_qr_mascota"></div>
 
-                                    <div class="contenedor_nombre_crear_qr_mascota">
-                                        <div class="nombre_mascota_tarjeta_qr lexend">
-                                            <span class="tarjeta_qr_nombre">Laika</span>
-                                        </div>
-
-                                        <a>
-                                            <div class="contenedor_generador_qr roboto2 ">
-                                                <p class="descargar_qr_">Descargar QR</p>
-                                            </div>
-                                        </a>
+                                <div class="contenedor_nombre_crear_qr_mascota">
+                                    <div class="nombre_mascota_tarjeta_qr lexend">
+                                        <span class="tarjeta_qr_nombre">Laika</span>
                                     </div>
 
+                                    <a>
+                                        <div class="contenedor_generador_qr roboto2 ">
+                                            <p class="descargar_qr_">Descargar QR</p>
+                                        </div>
+                                    </a>
                                 </div>
 
-
-                            </template>
-
+                            </div>
 
 
+                        </template>
 
-                           
 
 
-                            
+
+
+
+
+
 
                     </div>
                 </div>
@@ -192,7 +223,7 @@
                                 <a><u>greatpet2023@gmail.com</u></a>
                             </div>
                             <div class="a-footer ">
-                                <H5 class="hlds">Whastapp: </H5>
+                                <H5 class="hlds">Whatsapp: </H5>
                                 <a><u>+54 9 11 6244 - 4423</u></a>
                             </div>
                             <div class="a-footer">
@@ -204,6 +235,15 @@
                 </div>
 
 
+
+
+                <!-- <div class="caja-titulo-texto-footer">
+                    <div class="caja-footer_2-titulo"></div>
+                    <div class="caja-footer_3-linea"></div>
+                    <div class="caja-footer_4-descripcion">
+
+                    </div>
+                </div> -->
             </div>
 
         </div>
@@ -226,39 +266,41 @@
             mascotas[1].forEach(mascota => {
                 const tpl = tarjeta_qr.content;
                 const clon = tpl.cloneNode(true);
-                clon.querySelector(".tarjeta_qr_nombre") .textContent = mascota.nombre;
-                clon.querySelector(".img_tarjeta_qr_mascota") .style.backgroundImage = "url('img/"+mascota.imagen+"')"; 
+                clon.querySelector(".tarjeta_qr_nombre").textContent = mascota.nombre;
+                clon.querySelector(".img_tarjeta_qr_mascota").style.backgroundImage = "url('img/" + mascota.imagen + "')";
                 clon.querySelector(".descargar_qr_").id = mascota.id_mascota;
                 tarjeta_qr_contenedor.appendChild(clon);
-            }) 
+            })
         }
 
-        tarjeta_qr_contenedor.innerHTML=tarjeta_qr_contenedor.innerHTML+'<a href="#"><div class="tarjetas_mascotas_qr_añadir_mascota"><div class="contenedor_mas_a_m"><span class="material-icons-outlined mas_añadir_m">add</span><div class="texto_añadir_mascota roboto2"><P>AÑADIR MASCOTA</P></div></div></div></a>';
+        tarjeta_qr_contenedor.innerHTML = tarjeta_qr_contenedor.innerHTML + '<a href="registro_mascotas.php"><div class="tarjetas_mascotas_qr_añadir_mascota"><div class="contenedor_mas_a_m"><span class="material-icons-outlined mas_añadir_m">add</span><div class="texto_añadir_mascota roboto2"><P>AÑADIR MASCOTA</P></div></div></div></a>';
 
     })
-    function descargarQr(nombre,id){
+    function descargarQr(nombre, id) {
         imagen = document.createElement("img");
         new QRious({
             element: imagen,
-            value: "https://mattprofe.com.ar/alumno/great_pet/qr-responsive.html?id_mascota="+id, 
+            value: "https://mattprofe.com.ar/alumno/great_pet/info-qr.html?id_mascota=" + id,
             size: 500,
-            backgroundAlpha: 0, 
+            backgroundAlpha: 0,
             foreground: "black",
             level: "H",
         });
         const enlace = document.createElement("a");
         enlace.href = imagen.src;
-        enlace.download = nombre+"-Great-Pet.png";
+        enlace.download = nombre + "-Great-Pet.png";
         enlace.click();
     }
-    tarjeta_qr_contenedor.addEventListener("click", e => { 
+    tarjeta_qr_contenedor.addEventListener("click", e => {
 
         console.log(e)
-        if (e.target.className=="descargar_qr_") {
-            descargarQr(e.target.id,e.target.id);
+        if (e.target.className == "descargar_qr_") {
+            descargarQr(e.target.id, e.target.id);
         }
     });
 
 </script>
+
+<script src="menu_responsive.js"></script>
 
 </html>

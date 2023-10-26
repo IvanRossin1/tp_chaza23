@@ -38,6 +38,7 @@
     background-color: #603813;
     width: 770px;
     height: 7px;
+    border-radius: 20px;
 }
 
 
@@ -112,15 +113,11 @@ transition: all 0.3s;
     }
 }
 
-
-
-
-
-
-
-
-
-
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
 
 
 
@@ -166,7 +163,7 @@ border-radius: 10px;
 padding: 0 10px;
 }
 
-#genero{
+#sexo{
     
 width: 100%;
 height: 30px;
@@ -185,7 +182,7 @@ padding: 0 10px;
 
 
 
-.boton_guardar_mascota{
+input[type=submit]{
     position: absolute;
     background-color: #ffa75a;
     height: 70px;
@@ -200,13 +197,14 @@ padding: 0 10px;
     bottom: -10px;
     right: -10px;
     transition: all 0.3s;
-
+    border: none;
 }
 
 
-.boton_guardar_mascota:hover{
+input[type=submit]:hover{
     color: #60381369;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -321,26 +319,26 @@ padding: 0 10px;
 
 
 
-#btn-switch:checked~.lbl-switch:after {
+#especie_1:checked~.lbl-switch:after {
     left: 69px;
 }
 
-#btn-switch:checked~.lbl-switch {
+#especie_1:checked~.lbl-switch {
     background-color: #ffa75a;
 
 }
 
-#btn-switch2:checked~.lbl-switch:after {
+#especie_2:checked~.lbl-switch:after {
     left:69px;
 }
 
-#btn-switch2:checked~.lbl-switch {
+#especie_2:checked~.lbl-switch {
     background-color: #ffa75a;
 
 }
 
-#btn-switch,
-#btn-switch2 {
+#especie_1,
+#especie_2 {
     display: none;
 }
 
@@ -362,7 +360,13 @@ padding: 0 10px;
 }
 
 
-
+.estructura_from {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*                    termina botones perros gatos                      */
