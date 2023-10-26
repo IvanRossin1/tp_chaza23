@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Raleway:wght@300&family=Roboto:wght@300;500&family=Sigmar&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sigmar {
+    font-family: 'Sigmar', cursive;
+    font-weight: 400;
+}
+
+.roboto2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.texto_black {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+}
+
+.releway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.lexend {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    position: relative;
+    background-color: #fcf2eb;
+    height: 100%;
+    /* border: solid 10px rgb(0, 255, 64); */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+#listado {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
