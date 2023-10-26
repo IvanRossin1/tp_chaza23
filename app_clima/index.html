@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>Document</title>
+</head>
+
+<body>
+<div class="fondito"></div>
+    <div class="container">
+        <header class="ciudad">
+            <i class="material-icons">place</i>
+            <label>
+                <input list="ciudades" name="ciudad" placeholder="Seleccione una ciudad"/>
+            </label>
+
+            <datalist id="ciudades">
+                <option value="Villa Giardino"></option>
+                <option value="Tortuguitas"></option>
+                <option value="ExpoTécnica"></option>
+                <option value="Aeroclub La Cumbre"></option>
+            </datalist>
+
+        </header>
+
+        <main>
+            <div class="chipid">
+
+            </div>
+
+            <section class="opciones">
+                <button class="material-icons fs20">thermostat</button>
+                <button class="material-icons fs20">air</button>
+                <button class="material-icons fs20">water_drop</button>
+                <button class="material-icons fs20">local_fire_department</button>
+            </section>
+
+            <div class="grafico">
+                <canvas id="myChart">
+
+                </canvas>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+              label: 'mm precipitaciones',
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+</body>
+
+</html>

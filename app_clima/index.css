@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Condensed:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:'Roboto Condensed', sans-serif; */
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+}
+.fondito{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://imagenes.muyinteresante.es/files/composte_image/uploads/2023/08/01/64c927ca910e0.jpeg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 1;
+
+}
+.container{
+    position: relative;
+    width: 90%;
+    height: 95vh;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ciudad{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.322);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & input{
+        min-width: 350px!important;
+        height: 40px;
+        border: none;
+        outline: none ;
+        padding: 5px 15px;
+        background-color: transparent;
+        font-size: 1.2em;
+        
+    }
+
+}
+.chipid{
+    height: 200px;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.385);
+}
+.opciones{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    & button{
+        height: 60px;
+        width: 60px;
+        background-color: rgba(140, 160, 214, 0.603);
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        transition: all 100ms linear;
+    }
+    .fs20{
+        font-size: 1.4em!important;
+    }
+    & button:hover{
+        transform: scale(1.1);
+    }
+    & button:active{
+        transform: rotate(5deg);
+    }
+}
