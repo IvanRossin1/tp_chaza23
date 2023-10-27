@@ -203,7 +203,8 @@
     /* background-color: #603813; */
     color: #ee920c;
     font-size: 30pt;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    padding: 20px 0 0 20px;
 }
 
 .tipo_servicio {
@@ -223,7 +224,8 @@
     /* background-color: red; */
     width: 520px;
     display: flex;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin: 30px 0 0 80px;
     justify-content: end;
 
 }
@@ -231,15 +233,17 @@
 
 .linea_reco_refuguios {
     background-color: #603813;
-    width: 82%;
+    /* width: 82%; */
+    width: 90%;
     height: 5px;
     border-radius: 5px;
+    margin: 0 0 0 20px;
 }
 
 .contenedor_parrafo_info_reco {
     /* background-color: rgba(0, 0, 255, 0.438); */
     height: 170px;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
 
@@ -248,7 +252,7 @@
 .parrafo_info_reco {
     /* background-color: burlywood; */
     font-size: 15pt;
-    width: 80%;
+    width: 95%;
     margin: 20px 0 0 20px;
 }
 
