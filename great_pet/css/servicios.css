@@ -275,6 +275,7 @@
 
 .contactos_refuguios_mail_num {
     /* background-color: #fcf2eb; */
+    /* background-color: #ee920c; */
     background-color: #ee920c;
     height: 100%;
     width: 100%; 
@@ -309,6 +310,29 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.contactos_refuguios_mail_num:hover {
+    transition: 0.4s;
+    color: red;
+}
+
+a:hover {
+    transition: 0.4s;
+    color: red;
+}
+
+.mapa {
+    background-color: #ee920c;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    /* bottom: 100px; */
+    /* left: 81%; */
+    /* border: solid; */
+    /* border-color: rgba(0, 0, 0, 0.287); */
+    border-radius: 50px;
+    padding: 10px;
 }
 
 /*                             FIN TARJETAS RECOMENDACIONES                        */
