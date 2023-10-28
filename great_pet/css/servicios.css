@@ -285,6 +285,18 @@
     margin-right: 20px;
 }
 
+.info_horarios {
+    /* background-color: #fcf2eb; */
+    background-color: #ee920c;
+    height: 100%;
+    width: 100%; 
+    /* padding: 0 20px 0 5px; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
 .email_num_ref {
     /* background-color: red; */
     padding: 0 0 0 10px;
@@ -327,21 +339,21 @@
 
 .contactos_refuguios_mail_num:hover {
     transition: 0.25s;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+    color: white;
+    background-color: #a36509;
 }
 
-.mapa {
-    background-color: #009e6cbb;
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 100px;
-    left: 81%;
-    border: solid;
-    border-color: rgba(0, 0, 0, 0.287);
-    border-radius: 50%;
-    padding: 10px 0 0 10px;
+#contacto_refugio {
+    /* background-color: #fcf2eb; */
+    background-color: #ee920c;
+    height: 100%;
+    width: 100%; 
+    /* padding: 0 20px 0 5px; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    /* margin-right: 20px; */
 }
-
 
 /*                             FIN TARJETAS RECOMENDACIONES                        */
