@@ -6,6 +6,7 @@
 
 .principal {
     height: 100vh;
+    background-color: gray;
 }
 
 .promo {
@@ -83,17 +84,27 @@
 }
 
 .titulo1 {
-
+    background-color: red;
 }
 
 .titulo2 {
-
+    background-color: green;
 }
 
 .titulo3 {
-
+    background-color: blue;
+    display: flex;
+    /* margin: 100px 0 0 0; */
 }
 
 .titulo4 {
-    
+    background-color: violet;
+    display: flex;
+    /* margin: 80px 0 0 0; */
+}
+
+.precios {
+    background-color: red;
+    width: 100%;
+    height: ;
 }
