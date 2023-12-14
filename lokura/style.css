@@ -72,7 +72,7 @@
 
 .nombre_promo {
     width: 100%;
-    height: 100%;
+    height: 80%;
     /* background-color: red; */
 }
 
@@ -94,17 +94,20 @@
 .titulo3 {
     background-color: blue;
     display: flex;
-    /* margin: 100px 0 0 0; */
+    position: absolute;
+    margin: 0 0 0 0;
 }
 
 .titulo4 {
     background-color: violet;
     display: flex;
-    /* margin: 80px 0 0 0; */
+    position: absolute;
+    margin: 0 0 0 120px;
 }
 
 .precios {
     background-color: red;
     width: 100%;
-    height: ;
+    margin: 115px 0 0 0;
+    padding-left: 10px;
 }
