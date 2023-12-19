@@ -34,10 +34,8 @@
     color: white;
     border-radius: 0 0 25px 25px;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-size: contain; */
-    background-size: 100%;
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
 }
 
 .caja_buscador {
