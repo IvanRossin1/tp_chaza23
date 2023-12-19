@@ -1,19 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+}
+
+.roboto {font-family: 'Roboto';}
+
+.ubuntu {font-family: 'Ubuntu', sans-serif;}
+
 .principal {
     height: 100vh;
-    background-color: gray;
+    background-color: rgb(235, 235, 235);
 }
 
 .promo {
     width: 100%;
     height: 50%;
-    background-image: url("campera1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.226)), 
+    url("campera1.jpg");
+    color: white;
+    border-radius: 0 0 25px 25px;
+    background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: center; */
 }
 
 .caja_buscador {
@@ -43,9 +61,12 @@
 .caja_buscador input[type = "submit"] {
     height: 60px;
     width: 20%;
-    background-color: rgba(255, 255, 255, 0.507);
+    /* background-color: rgba(255, 255, 255, 0.507); */
+    background-color: rgba(255, 255, 255, 0.26);
     border: none;
     outline: none;
+    color: white;
+    font-size: 25pt;
     /* background-color: transparent; */
 }
 
@@ -56,58 +77,340 @@
     border: none;
     outline: none;
     padding: 0 10px;
-    font-size: 12pt;
-    background-color: rgba(255, 255, 255, 0.507);
+    font-size: 14pt;
+    background-color: rgba(255, 255, 255, 0.26);
+    color: white;
+}
+
+::placeholder {
+    color: white;
 }
 
 .caja_buscador input[type = "search"]:focus {
-    font-size: 14pt;
-    transition: all 300ms ease;
+    font-size: 16pt;
+    transition: all 200ms ease;
 }
 
 .caja_buscador input[type = "submit"]:active {
-    font-size: 24pt;
-    transition: all 300ms ease;
+    font-size: 30pt;
+    transition: all 200ms ease;
 }
 
 .nombre_promo {
     width: 100%;
     height: 80%;
-    /* background-color: red; */
-}
-
-.img_promo {
-    background-image: url("campera1.jpg");
-    width: 50%;
-    height: 50%;
-    background-size: cover;
+    /* background-color: cyan; */
 }
 
 .titulo1 {
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    margin: 117px 0 0 20px;
+    font-size: 10px;
 }
 
 .titulo2 {
-    background-color: green;
+    /* background-color: green; */
+    display: flex;
+    position: absolute;
+    margin: 145px 0 0 20px;
+    font-size: 16px;
 }
 
 .titulo3 {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     position: absolute;
-    margin: 0 0 0 0;
+    margin: 190px 0 0 0;
+    font-size: 14px;
 }
 
 .titulo4 {
-    background-color: violet;
+    /* background-color: violet; */
     display: flex;
     position: absolute;
-    margin: 0 0 0 120px;
+    margin: 194px 0 0 115px;
+    font-size: 10px;
 }
 
 .precios {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
-    margin: 115px 0 0 0;
-    padding-left: 10px;
+    /* margin: 115px 0 0 0; */
+    margin: 0 0 0 20px;
+}
+
+.linea-desc{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* background-color: red; */
+    height: 2px;
+    width: 80px;
+    top: 11px;
+    right: 75px;
+}
+
+.linea-desc1{
+    position: relative;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: gray;
+    height: 2px;
+    width: 64px;
+    bottom: 9px;
+    left: 80px;
+}
+
+.trending1 {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 10px 20px;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.circulos {
+    background-color: rgb(235, 235, 235);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circulo1 {
+    background-color: rgb(106, 255, 156);
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.circulo2 {
+    background-color: rgb(106, 255, 156);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.circulo3 {
+    background-color: rgb(106, 255, 156);
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.foto-trend {
+    position: relative;
+}
+
+.foto-trend ul {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+
+.foto-trend ul li {
+    margin: 10px 5px 0 15px;
+    height: 202px;
+    flex: 0 0 110px;
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    border-radius: 14px;
+}
+
+ul.slider li img {
+    width: 150px;
+    height: 130px;
+}
+
+.slider img {
+    width: 100px;
+    height: auto;
+    border-radius: 14px 14px 0 0;
+}
+
+.nombre {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    font-size: 11pt;
+    /* font-weight: bold; */
+    padding: 5px 66px 0 0;
+}
+
+.lugar {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    padding: 2px 37px 0 0;
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.rating {
+    position: relative;
+    top: 8px;
+    padding-right: 100%;
+    width: 100%;
+    color: goldenrod;
+}
+
+.rating1 {
+    position: relative;
+    width: 100%;
+    bottom: 19px;
+    padding-right: 25%;
+    font-size: 15pt;
+}
+
+.info {
+    width: 100%;
+}
+
+.precio {
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+    margin: 0 0 0 10px;
+    font-size: 14pt;
+}
+
+.descuento {
+    /* background-color: green; */
+    display: flex;
+    position: relative;
+    margin: -20px 0 0 85px;
+    font-size: 11pt;
+    color: gray;
+}
+
+.categories {
+    background-color: rgb(235, 235, 235);
+    padding: 0 0 20px 0;
+}
+
+.categorias {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 10px 20px;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.foto-cat {
+    position: relative;
+}
+
+.foto-cat ul {
+    display: table-row;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.foto-cat ul li {
+    margin: 10px 5px 0 15px;
+    height: 80px;
+    /* flex: 0 0 110px; */
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.woman-cat {
+    width: 100%;
+    height: 100%;
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.woman {
+    width: 300px;
+    height: 100%;
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.woman-txt {
+    font-size: 20pt;
+    color: gray;
+    /* background-color: red; */
+    position: relative;
+    margin-right: 28%;
+}
+
+.man-cat {
+    width: 100%;
+    height: 100%;
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.man {
+    width: 300px;
+    height: 100%;
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.man-txt {
+    font-size: 20pt;
+    color: gray;
+    /* background-color: red; */
+    position: relative;
+    margin-right: 28%;
+}
+
+.txt1 {
+
+}
+
+.contactos_refu {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_contactos_refuguios {
+    height: 60px;
+    width: 640px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.contactos_refuguios_mail_num {
+    background-color: #ee920c;
+    height: 100%;
+    width: 100%;
+    /* padding: 0 20px 0 5px; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.links_servicios {
+    
 }
