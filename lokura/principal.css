@@ -276,7 +276,8 @@ ul.slider li img {
 }
 
 .categories {
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
+    background-color: red;
     padding: 0 0 20px 0;
     height: 100px;
 }
