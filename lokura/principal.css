@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* ::-webkit-scrollbar {
@@ -102,7 +103,7 @@
 
 .nombre_promo {
     width: 100%;
-    /* height: 80%; */
+    height: 80%;
     /* background-color: cyan; */
 }
 
@@ -240,7 +241,7 @@ ul.slider li img {
 
 .slider img {
     width: 100px;
-    /* height: auto; */
+    height: auto;
     border-radius: 14px 14px 0 0;
 }
 
@@ -276,10 +277,9 @@ ul.slider li img {
 }
 
 .categories {
-    /* background-color: rgb(235, 235, 235); */
-    background-color: red;
+    background-color: rgb(235, 235, 235);
+    /* background-color: red; */
     padding: 0 0 20px 0;
-    height: 100px;
 }
 
 .categorias {
