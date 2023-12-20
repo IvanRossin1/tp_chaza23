@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.roboto {font-family: 'Roboto';}
+
+.ubuntu {font-family: 'Ubuntu', sans-serif;}
+
+.fw1 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.principal3 {
+    height: 100vh;
+    background-color: rgb(235, 235, 235); 
+    /* background-color: red; */
+}
+
+.buttons {
+    width: 100%;
+    /* height: 55%; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.226)), 
+    url("img/campera1.jpg"); */
+    /* background-color: red; */
+    color: black;
+    /* border-radius: 0 0 25px 25px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-botones {
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 20px 15px;
+}
+
+.flecha-cart {
+    font-size: 30pt;
+    margin: 3px 20px 0 0;
+}
+
+.cards {
+    background-color:transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0 0 0;
+}
+
+.tarjetas-unicas {
+    /* background-color: antiquewhite; */
+    height: 130px;
+    width: 90%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.img-tarjeta {
+    /* background-image: url("img/campera1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.contenedora-texto-principal {
+    /* background-color: aqua; */
+    margin: 10px 20px;
+}
+
+.titulo-ropa-texto {
+    font-size: 15pt;
+    color: rgb(39, 39, 39);
+}
+
+.subtitulo {
+    margin-top: 9px;
+    font-size: 12pt;
+    color: rgb(112, 112, 112);
+}
+
+.caja-precio-cantidad {
+    /* background-color: rgb(240, 110, 110); */
+    display: flex;
+    height: 30px;
+    width: 280px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.precio-tarjeta {
+    /* background-color: cadetblue; */
+    width: 100px;
+    font-size: 14pt;
+}
+
+.caja-cantidad {
+    /* background-color: aquamarine; */
+    height: 20px;
+    display: flex;
+}
+
+.caja1-cantidad {
+    background-color:transparent;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+}
+
+.caja1-cantidad:hover {
+    background-color:rgb(214, 214, 214) ;
+}
+
+.caja2-cantidad {
+    background-color: rgb(214, 214, 214);
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3-cantidad {
+    background-color: transparent;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+}
+
+.caja3-cantidad:hover {
+    background-color:rgb(214, 214, 214) ;
+}
+
