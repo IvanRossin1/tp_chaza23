@@ -104,7 +104,7 @@
 
 .nombre_promo {
     width: 100%;
-    height: 80%;
+    height: 90%;
     /* background-color: cyan; */
 }
 
@@ -151,11 +151,9 @@
     /* background-color: red; */
     /* width: 100%; */
     /* margin: 115px 0 0 0; */
-    /* margin: 240px 0 0 20px; */
-    padding: 240px 0 0 20px;
+    margin: 240px 0 0 20px;
     display: flex;
     position: relative;
-    overflow: hidden;
 }
 
 .linea-desc {
