@@ -23,7 +23,8 @@
 
 .principal2 {
     height: 100vh;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */ 
+    background-color: red;
 }
 
 .producto {
