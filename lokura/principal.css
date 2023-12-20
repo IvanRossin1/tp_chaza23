@@ -240,7 +240,7 @@ ul.slider li img {
 
 .slider img {
     width: 100px;
-    height: auto;
+    /* height: auto; */
     border-radius: 14px 14px 0 0;
 }
 
@@ -354,4 +354,3 @@ ul.slider li img {
 }
 
 /* ---------------------FIN PRINCIPAL--------------------- */
-
