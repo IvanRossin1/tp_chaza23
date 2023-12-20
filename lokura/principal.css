@@ -133,7 +133,7 @@
     display: flex;
     position: relative;
     /* margin: 190px 0 0 0; */
-    bottom: -240px;
+    /* bottom: -240px; */
     font-size: 14px;
 }
 
@@ -142,8 +142,8 @@
     display: flex;
     position: relative;
     /* margin: 194px 0 0 115px; */
-    bottom: -212px;
-    left: 120px;
+    bottom: -4px;
+    left: 15px;
     font-size: 10px;
 }
 
@@ -151,7 +151,9 @@
     /* background-color: red; */
     /* width: 100%; */
     /* margin: 115px 0 0 0; */
-    margin: 0 0 0 20px;
+    margin: 240px 0 0 20px;
+    display: flex;
+    position: relative;
 }
 
 .linea-desc {
