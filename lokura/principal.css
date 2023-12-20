@@ -152,7 +152,7 @@
     margin: 0 0 0 20px;
 }
 
-.linea-desc{
+.linea-desc {
     position: relative;
     background-color: rgb(255, 255, 255);
     /* background-color: red; */
@@ -162,7 +162,7 @@
     right: 75px;
 }
 
-.linea-desc1{
+.linea-desc1 {
     position: relative;
     /* background-color: rgb(255, 255, 255); */
     background-color: gray;
