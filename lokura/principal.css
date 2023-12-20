@@ -111,7 +111,7 @@
     display: flex;
     position: relative;
     /* margin: 117px 0 0 20px; */
-    bottom: -117px;
+    bottom: -235px;
     left: 20px;
     font-size: 10px;
 }
@@ -121,7 +121,7 @@
     display: flex;
     position: relative;
     /* margin: 145px 0 0 20px; */
-    bottom: -120px;
+    bottom: -240px;
     left: 20px;
     font-size: 16px;
 }
@@ -131,7 +131,7 @@
     display: flex;
     position: relative;
     /* margin: 190px 0 0 0; */
-    bottom: -120px;
+    bottom: -240px;
     font-size: 14px;
 }
 
@@ -140,8 +140,8 @@
     display: flex;
     position: relative;
     /* margin: 194px 0 0 115px; */
-    bottom: -92px;
-    left: 110px;
+    bottom: -212px;
+    left: 120px;
     font-size: 10px;
 }
 
