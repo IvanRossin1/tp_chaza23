@@ -58,7 +58,7 @@
 .cart {
     /* background-color: violet; */
     padding-top: 15px;
-    height: 90px;
+    height: 77px;
 }
 
 .btn-cart {
@@ -94,6 +94,7 @@
     position: relative;
     /* bottom: -235px; */
     left: 20px;
+    margin-top: 10px;
     font-size: 23pt;
     font-weight: 700;
 }
